@@ -7,7 +7,7 @@ function Start () {
 }
 
 function OnTriggerEnter2D(collider) {
-	player.grounded = true;
+	//player.grounded = true;
 }
 
 function OnTriggerStay2D(collider) {

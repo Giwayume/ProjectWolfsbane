@@ -1,0 +1,45 @@
+{
+	"clawAttackBasicNeutral": [
+		{
+			"trigger": {
+				"player": "clawAttackNeutral",
+				"effect": null
+			},
+			"freeze": "0.60",
+			"movement": {
+				"0" : {
+					"x": "3",
+					"y": "0"
+				},
+				"0.30": {
+					"x": "0",
+					"y": "0"
+				}
+			},
+			"nextCombo": {
+				"start": "0.30",
+				"end": "0.60"
+			}
+		},
+		{
+			"trigger": {
+				"player": "continueCombo",
+				"effect": null
+			}
+			"freeze": "0.80",
+			"movement": {
+				"0" : {
+					"x": "3",
+					"y": "0"
+				},
+				"0.30": {
+					"x": "0",
+					"y": "0"
+				}
+			},
+			"nextCombo": {
+				"delay": "0.92"
+			}
+		}
+	]
+}
