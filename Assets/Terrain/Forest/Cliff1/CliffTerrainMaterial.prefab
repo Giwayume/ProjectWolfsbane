@@ -1,0 +1,361 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &161262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 401872}
+  - 114: {fileID: 11443802}
+  m_Layer: 0
+  m_Name: CliffTerrainMaterial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &401872
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11443802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a21887e1cf80db49978ff567bcdd66c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fillMaterial: {fileID: 2100000, guid: 17988fe33e7e47c4b8f5a6d18cc58912, type: 2}
+  edgeMaterial: {fileID: 2100000, guid: 6e4bde05d43b7474fb7867fc17d2232e, type: 2}
+  descriptors:
+  - applyTo: 0
+    zOffset: 0
+    yOffset: 0
+    leftCap:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.125
+      height: 1
+    innerLeftCap:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rightCap:
+      serializedVersion: 2
+      x: 0.875
+      y: 0
+      width: 0.125
+      height: 1
+    innerRightCap:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    body:
+    - serializedVersion: 2
+      x: 0.125
+      y: 0
+      width: 0.375
+      height: 1
+    - serializedVersion: 2
+      x: 0.5
+      y: 0
+      width: 0.375
+      height: 1
+    capOffset: 0
+  - applyTo: 1
+    zOffset: 0
+    yOffset: 0
+    leftCap:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 0
+      height: 0
+    innerLeftCap:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rightCap:
+      serializedVersion: 2
+      x: 1
+      y: 1
+      width: 0
+      height: 0
+    innerRightCap:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    body:
+    - serializedVersion: 2
+      x: 0
+      y: 1
+      width: 1
+      height: 0
+    capOffset: 0
+  - applyTo: 2
+    zOffset: 0
+    yOffset: 0
+    leftCap:
+      serializedVersion: 2
+      x: 0
+      y: 1.0039062
+      width: 0
+      height: 0
+    innerLeftCap:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rightCap:
+      serializedVersion: 2
+      x: 1
+      y: 1.0039062
+      width: 0
+      height: 0
+    innerRightCap:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    body:
+    - serializedVersion: 2
+      x: 0
+      y: 1.0039062
+      width: 1
+      height: 0
+    capOffset: 0
+  - applyTo: 0
+    zOffset: 0
+    yOffset: 0
+    leftCap:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    innerLeftCap:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rightCap:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    innerRightCap:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    body:
+    - serializedVersion: 2
+      x: 0
+      y: 0
+      width: 50
+      height: 50
+    capOffset: 0
+  isPixel: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].body.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: fillMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 17988fe33e7e47c4b8f5a6d18cc58912, type: 2}
+    - target: {fileID: 0}
+      propertyPath: edgeMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 6e4bde05d43b7474fb7867fc17d2232e, type: 2}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].rightCap.x
+      value: 0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].body.Array.data[0].width
+      value: 0.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].body.Array.data[0].height
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[1].applyTo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[1].rightCap.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[1].body.Array.data[0].width
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[1].body.Array.data[0].height
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].leftCap.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].rightCap.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].body.Array.data[0].y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].leftCap.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].body.Array.data[0].x
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[1].leftCap.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[1].body.Array.data[0].x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[1].leftCap.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[1].rightCap.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[1].body.Array.data[0].y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].leftCap.width
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].leftCap.height
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].rightCap.width
+      value: 0.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].rightCap.height
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].body.Array.data[1].x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].body.Array.data[1].width
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].body.Array.data[1].y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].body.Array.data[2].y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].body.Array.data[2].x
+      value: 0.6666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].body.Array.data[1].height
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].body.Array.data[2].height
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].capOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[0].body.Array.data[2].width
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[2].applyTo
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[2].rightCap.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[2].body.Array.data[0].width
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[2].body.Array.data[0].height
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[2].leftCap.y
+      value: 1.0039062
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[2].rightCap.y
+      value: 1.0039062
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: descriptors.Array.data[2].body.Array.data[0].y
+      value: 1.0039062
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 161262}
+  m_IsPrefabParent: 1
